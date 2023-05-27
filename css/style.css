@@ -1,0 +1,386 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+img{
+    height: 20em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.text{
+    text-decoration: none;
+}
+
+p{
+    text-align: center;
+}
+.course-img{
+    margin-left: 20em;
+
+}
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5em;
+}
+
+.logo{
+    flex: 2;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0px 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menu{
+    flex:4;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-items{
+    color: aliceblue;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 0px 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.menu-items:hover{
+    background-color: wheat;
+}
+
+.search-box {
+    position: absolute; 
+    top: 10px;
+    left: 300px;
+    background : black;
+    height: 10px;
+    border-radius: 30px;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+#homepage{
+    background-color: gray;
+    height: 600px;
+    background-image: url("../images/edu.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+}
+.bottom-container{
+    margin-top: 5em;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color:white;
+}
+
+#about{
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    font-weight: 600;
+    
+}
+h3{
+    font-size: 55px;
+    color: #003666;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+#left{
+    float: left;
+    border-right: 3px solid midnightblue;
+    font-size: 30px;
+    width: 400px;
+    color: midnightblue;
+}
+
+#h5left{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#h5left, #right{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+span{
+    font-size: 50px;
+    margin-right: 7px ;
+    line-height: 42px;
+    color: #999999;
+    font-weight: 600;
+    float: left;
+}
+#right{
+    float: right;
+    width: 750px;
+    color: midnightblue;
+
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+}
+
+#pright{
+    float: right;
+    width: 750px;
+    color: midnightblue;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    font-weight: 100;
+
+    line-height: 1.6;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.img-fl{
+    max-width: 100%;
+    height: auto;
+}
+
+#courses{
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+}
+
+.card{
+    width: 320px;
+    height: 350px;
+    border: 1px solid #fff;
+    padding: 0;
+    display: inline-block;
+}
+.card article{
+    display:inline-block;
+    width:33%;
+    text-align: center;
+    padding-bottom:60px;
+    padding-top:20px;
+}
+
+.cardbanner{
+    font-size: 15px;
+    color: #003666;
+}
+
+.cardp{
+    color: #888;
+}
+
+.card:hover{
+    border: 2px solid gray;
+
+
+}
+
+#team{
+    background-color: #003666;
+    padding: 50px;
+    height: 850px;
+    text-align: center;
+}
+
+#teamhead{
+    color: white;
+    font-size: 60px;
+
+}
+
+.col-left-right{
+    width: 250px;
+    float: left;
+    padding: 50px;
+}
+
+.oval{
+    border-radius: 50%;
+}
+
+.team-member{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.member{
+    color: #999999;
+    font-size: 16px;
+}
+
+.social{
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    width: 50px;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+.social:hover{
+    background-color: #888;
+}
+
+#contact{
+    background: url("../images/dalga.jpeg");
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+
+#contacth3{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 40px;
+
+}
+
+#opak{
+    background: rgba(255,255,255,0.5);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom:50px;
+    height: 600px;
+}
+#formgroup{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+
+
+
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5 ;
+    color: #495057;
+    background-color:gray ;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    
+}
+
+input[type="submit"]{
+    cursor:pointer;
+    background-color: gray;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 6px 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left:10px ;
+    margin-top: 10px;
+}
+
+#address{
+    width: 450px;
+    float: right;
+    padding: 30px;
+    height: 500px;
+    text-align: left;
+}
+
+
+.adresp{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+#copyright{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+
+}
+
+
+#anlat{
+    background-color: white;
+    padding: 50px;
+    height: 850px;
+    text-align: center;
+}
+
+#baslik{
+    color: midnightblue;
+    font-size: 60px;
+
+}
+.col{
+    width: 385px;
+    float: left;
+    padding: 50px;
+}
+
+.word{
+    color: midnightblue;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.icon{
+    
+    padding: 10px;
+    width: 50px;
+    border-radius: 5px;
+    margin: 5px 10px;
+    font-size: 10em;
+
+
+}
+
+
+
